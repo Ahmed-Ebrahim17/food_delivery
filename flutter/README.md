@@ -38,13 +38,6 @@ lib/
 
 ### Installation & Usage
 
-<<<<<<< Updated upstream:flutter/README.md
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# food_delivery
-This folder contains the Flutter mobile application
-=======
 1.  **Clone the repository:**
     ```sh
     git clone https://github.com/Ahmed-Ebrahim17/food_delivery.git
@@ -69,4 +62,3 @@ This project relies on several key packages to function:
 -   [**flutter_screenutil**](https://pub.dev/packages/flutter_screenutil): For adapting screen and font sizes to ensure a responsive UI.
 -   [**intl**](https://pub.dev/packages/intl): Provides internationalization and localization facilities.
 -   [**flutter_native_splash**](https://pub.dev/packages/flutter_native_splash): For customizing the native splash screen.
->>>>>>> Stashed changes:README.md
