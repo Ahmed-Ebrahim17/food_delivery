@@ -1,8 +1,16 @@
-import 'dart:ui';
+import 'package:flutter/material.dart';
+import 'package:food_delivery/core/theming/colors.dart';
+import 'package:food_delivery/core/theming/font_weight_helper.dart';
 
-class FoodColors {
-  static const mainOrange = Color(0xFFFF7622);
-  static const backgroundColor = Color(0xFFF3F3F3);
-  static const darkTextColor = Color(0xFF32343E);
-  static const lightDarkTextColor = Color(0xFF646982);
+class AppTextStyles {
+  static const TextStyle font24ExtraBoldBlack = TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeightHelper.extraBold,
+    color: ColorsManager.textPrimary,
+  );
+  static const TextStyle font16RegularGray = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeightHelper.regular,
+    color: ColorsManager.textSecondary,
+  );
 }
